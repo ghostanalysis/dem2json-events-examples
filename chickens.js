@@ -15,7 +15,7 @@ if (d.parser_name !== 'ghostanalysis.dem2json-events' || d.parser_version !== '0
 }
 
 d.events.forEach(function (e) {
-  if (e.type === 'player_death') {
-    console.log(`${e.attacker_player.name} killed ${e.player.name} with ${e.weapon}`);
+  if (e.type === 'other_death') {
+    console.log(`${e.player.name} killed 🐓 from ${e.player.place} with ${e.weapon}.`);
   }
 });

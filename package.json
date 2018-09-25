@@ -4,7 +4,8 @@
   "description": "",
   "main": "kills.js",
   "dependencies": {
-    "fs": "0.0.1-security"
+    "fs": "0.0.1-security",
+    "jshint": "^2.9.6"
   },
   "devDependencies": {},
   "scripts": {
