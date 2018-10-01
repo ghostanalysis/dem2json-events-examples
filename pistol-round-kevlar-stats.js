@@ -64,10 +64,12 @@ d.events.forEach(function (e) {
 
       if (e.headshot === true) {
         if (players_with_kevlar[e.player.steam64_id] !== undefined) {
-          console.log(`${roundNum}: ${e.player.name} died to a headshot, so didn't need kevlar`)
+          // console.log(`${roundNum}: ${e.player.name} died to a headshot, so didn't need kevlar`)
+          console.log(`${e.player.name}, 1, 0`)
         }
       } else if (players_that_got_headshot[e.player.steam64_id] !== undefined) {
-          console.log(`${roundNum}: ${e.player.name} died, and took a headshot earlier in the round, so maybe didn't need kevlar`)
+          // console.log(`${roundNum}: ${e.player.name} died, and took a headshot earlier in the round, so maybe didn't need kevlar`)
+          console.log(`${e.player.name}, 0, 1`)
       }
     }
   }
