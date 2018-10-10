@@ -62,6 +62,7 @@ d.events.forEach(function (e) {
         return;
       }
 
+      // These print `name, definitely, maybe`
       if (e.headshot === true) {
         if (players_with_kevlar[e.player.steam64_id] !== undefined) {
           // console.log(`${roundNum}: ${e.player.name} died to a headshot, so didn't need kevlar`)
