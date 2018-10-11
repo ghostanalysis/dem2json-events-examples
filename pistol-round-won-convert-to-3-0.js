@@ -1,9 +1,4 @@
-/* Calculate whether kevlar was a waste of money for pistol rounds
- *
- * We need to track a few things for this
- * - is it pistol round?
- * - maybe if people had kevlar?
- * - if the person got headshot?
+/* Calculate whether winning pistol round was converted to a 3-0 score difference
  */
 
 if (process.argv.length != 3) {
